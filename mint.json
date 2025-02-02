@@ -29,7 +29,15 @@
     {
       "name": "API Reference",
       "url": "api-reference"
-    }
+    },
+    {
+      "name": "Changelog",
+      "url": "changelog"
+    },
+    {
+      "name": "Help",
+      "url": "help"
+    },
   ],
   "anchors": [
     {
