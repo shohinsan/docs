@@ -83,6 +83,18 @@
       ]
     },
     {
+      "group": "Changelog",
+      "pages": [
+        "changelog/introduction"
+      ]
+    },
+    {
+      "group": "Help",
+      "pages": [
+        "help/introduction"
+      ]
+    },
+    {
       "group": "Endpoint Examples",
       "pages": [
         "api-reference/endpoint/get",
