@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Custom Docs",
+  "name": "Docs Title",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -18,12 +18,12 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://mintlify.com"  
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Get Started",
+    "url": "https://mintlify.com"
   },
   "tabs": [
     {
@@ -31,29 +31,29 @@
       "url": "api-reference"
     },
     {
-      "name": "Changelog",
-      "url": "changelog"
+      "name": "Knowledge Base",
+      "url": "help"
     },
     {
-      "name": "Help",
-      "url": "help"
+      "name": "Changelog",
+      "url": "changelog"
     }
   ],
   "anchors": [
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "introduction" 
     },
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://example.com/community"  
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://example.com/blog" 
     }
   ],
   "navigation": [
@@ -83,15 +83,31 @@
       ]
     },
     {
-      "group": "Changelog",
+      "group": "Help Center",
       "pages": [
-        "changelog/introduction"
+        "help/overview",
+        {
+          "group": "Getting Started",
+          "pages": [
+            "getting-started/payment",
+            "getting-started/plan",
+            "getting-started/app",
+            {
+              "group": "Advanced Features",
+              "pages": [
+                "advanced-features/device",
+                "advanced-features/data-privacy",
+                "advanced-features/account"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "group": "Help",
+      "group": "Changelog",
       "pages": [
-        "help/introduction"
+        "changelog/overview"
       ]
     },
     {
@@ -104,8 +120,12 @@
     }
   ],
   "footerSocials": {
+    "website": "https://mintlify.com",
     "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
+    "facebook": "https://facebook.com/mintlify",
+    "telegram": "https://t.me/mintlify",
+    "instagram": "https://instagram.com/mintlify",
     "linkedin": "https://linkedin.com/company/mintlify"
   }
 }
