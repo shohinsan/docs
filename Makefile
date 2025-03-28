@@ -2,7 +2,7 @@
 
 run:
 	lsof -i :3333 | awk 'NR!=1 {print $$2}' | xargs -r kill -9
-	mintlify dev --port 3333
+	npx mintlify dev --port 3333
 
 # Node modules
 

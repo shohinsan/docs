@@ -1,0 +1,257 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Docs Title",
+  "colors": {
+    "primary": "#00A3FF",
+    "light": "#00A3FF",
+    "dark": "#00A3FF"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "anchors": [
+          {
+            "anchor": "Documentation",
+            "icon": "book-open",
+            "tabs": [
+              {
+                "tab": "Documentation",
+                "groups": [
+                  {
+                    "group": "Get Started",
+                    "pages": [
+                      "introduction",
+                      "quickstart",
+                      "development"
+                    ]
+                  },
+                  {
+                    "group": "Essentials",
+                    "pages": [
+                      "essentials/markdown",
+                      "essentials/code",
+                      "essentials/images",
+                      "essentials/settings",
+                      "essentials/navigation",
+                      "essentials/reusable-snippets"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "API Reference",
+                "groups": [
+                  {
+                    "group": "API Documentation",
+                    "pages": [
+                      "api-reference/introduction"
+                    ]
+                  },
+                  {
+                    "group": "Endpoint Examples",
+                    "pages": [
+                      "api-reference/endpoint/get",
+                      "api-reference/endpoint/create",
+                      "api-reference/endpoint/delete"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "Knowledge Base",
+                "groups": [
+                  {
+                    "group": "Help Center",
+                    "pages": [
+                      "help/overview",
+                      {
+                        "group": "Getting Started",
+                        "pages": [
+                          "help/getting-started/payment",
+                          "help/getting-started/plan",
+                          "help/getting-started/app",
+                          {
+                            "group": "Advanced Features",
+                            "pages": [
+                              "help/getting-started/advanced-features/device",
+                              "help/getting-started/advanced-features/data-privacy",
+                              "help/getting-started/advanced-features/account"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "Changelog",
+                "groups": [
+                  {
+                    "group": "Changelog",
+                    "pages": [
+                      "changelog/overview"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "Documentation",
+            "href": "https://example.com/community",
+            "icon": "book-open-cover"
+          },
+          {
+            "anchor": "Community",
+            "href": "https://example.com/community",
+            "icon": "slack"
+          },
+          {
+            "anchor": "Blog",
+            "href": "https://example.com/blog",
+            "icon": "newspaper"
+          }
+        ]
+      },
+      {
+        "language": "es",
+        "anchors": [
+          {
+            "anchor": "Documentation",
+            "icon": "book-open",
+            "tabs": [
+              {
+                "tab": "Documentation",
+                "groups": [
+                  {
+                    "group": "Empezar",
+                    "pages": [
+                      "introduction",
+                      "quickstart",
+                      "development"
+                    ]
+                  },
+                  {
+                    "group": "Esenciales",
+                    "pages": [
+                      "essentials/markdown",
+                      "essentials/code",
+                      "essentials/images",
+                      "essentials/settings",
+                      "essentials/navigation",
+                      "essentials/reusable-snippets"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "Referencia API",
+                "groups": [
+                  {
+                    "group": "Documentación de la API",
+                    "pages": [
+                      "api-reference/introduction"
+                    ]
+                  },
+                  {
+                    "group": "Ejemplos de punto final",
+                    "pages": [
+                      "api-reference/endpoint/get",
+                      "api-reference/endpoint/create",
+                      "api-reference/endpoint/delete"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "Base de Conocimientos",
+                "groups": [
+                  {
+                    "group": "Centro de Ayuda",
+                    "pages": [
+                      "help/overview",
+                      {
+                        "group": "Empezando",
+                        "pages": [
+                          "help/getting-started/payment",
+                          "help/getting-started/plan",
+                          "help/getting-started/app",
+                          {
+                            "group": "Características Avanzadas",
+                            "pages": [
+                              "help/getting-started/advanced-features/device",
+                              "help/getting-started/advanced-features/data-privacy",
+                              "help/getting-started/advanced-features/account"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "Registro de cambios",
+                "groups": [
+                  {
+                    "group": "Registro de cambios",
+                    "pages": [
+                      "changelog/overview"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "Documentación",
+            "href": "https://example.com/community",
+            "icon": "book-open-cover"
+          },
+          {
+            "anchor": "Comunidad",
+            "href": "https://example.com/community",
+            "icon": "slack"
+          },
+          {
+            "anchor": "Blog",
+            "href": "https://example.com/blog",
+            "icon": "newspaper"
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "https://mintlify.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "https://mintlify.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "website": "https://mintlify.com",
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "facebook": "https://facebook.com/mintlify",
+      "telegram": "https://t.me/mintlify",
+      "instagram": "https://instagram.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  }
+}
