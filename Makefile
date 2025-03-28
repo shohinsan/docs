@@ -1,17 +1,9 @@
-# Start
-
 run:
 	lsof -i :3333 | awk 'NR!=1 {print $$2}' | xargs -r kill -9
 	npx mintlify dev --port 3333
 
-# Node modules
-
-upgrade-modules:
-	bunx npm-check-updates -u
-
 reinstall-modules:
-	rm -rf node_modules && npm install
-
+	rm -rf node_modules && mintlify install
 
 # Additional Commands
 # mintlify openapi-check <openapiFilenameOrUrl>
